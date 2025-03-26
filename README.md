@@ -9,6 +9,21 @@
 3. Clone your fork, using the website or the GitHub Desktop client.
 4. Checkout your personalized branch, the one with your name.
 
+Also, ensure VS Code’s settings includes the following
+
+```json
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+```
+
+1. Launch VS Code’s settings.
+2. If your settings are set to the graphical interface, search for “workbench settings editor”, then choose `json` under the dropdown menu for **Workbench** > Settings: **Editor**.
+3. Close and relaunch your settings.
+4. Copy the entries above into your settings. 
+
+---
+
 ---
 
 ## ❖ Grading ❖
