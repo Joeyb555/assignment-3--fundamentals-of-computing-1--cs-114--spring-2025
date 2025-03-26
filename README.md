@@ -77,6 +77,18 @@ As mentioned in item 5, the elements in the diagonal **must not be touched**, wh
 6. Write a `public` method called `flipMatrix` that accepts no arguments and returns nothing. It should “flip” the matrix’s values along the diagonal from top right to bottom left. The elements that comprise the diagonal should be highlight and not swapped.
 
 ---
+
+## ❖ File List ❖
+
+This repo contains the following files, all required to carry out this assignment. Before you start working, ensure you understand the role of each file below.
+
+1. `Makefile` — There is a `Makefile` in the `diamond` and `matrix` folders. You needn’t use them to build/run your programs, but I use them to grade your assignments. If they don’t work for me, then you’ll earn a 0 for each non-working program. Thus, you’re advised to use them as you develop the programs in this assignment. Recall that running `make` in your command line interface, or CLI, builds your program. If you want to test input into a program after building it, you can run `make run`. Run `make clean` to remove all class files. **Do not edit.**
+2. `.editorconfig` — There are `.editorconfig` files in the `diamond` and `matrix` folders. Each is a redundancy of what’s already in the `.editorconfig` file you installed in your home folder at the beginning of the semester. They’re here to make sure you’re working with the formatting rules defined in `.editorconfig`. *Ensure EditorConfig is working in VS Code before beginning this assignment.* **Do not modify any of them.**
+3. `Diamond.java` — Add your diamond-related code here. **Do not** write your code in anything *other* than this file.
+4. `Matrix.java` — Where the entire `Matrix` class and its methods will be defined.
+5. `RunMatrix.java` — Method `main` goes in this file, along with the instantiation of the `Matrix` object.
+6. `.gitignore` — There are various `.gitignore` files throughout this repository. **Do not modify any of them.**
+
 ---
 
 ## ❖ Grading ❖
