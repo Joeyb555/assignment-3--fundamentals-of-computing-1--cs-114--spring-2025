@@ -11,6 +11,18 @@
 
 ---
 
+## ❖ Grading ❖
+
+| Item                                                                                  | Points |
+|---------------------------------------------------------------------------------------|:------:|
+| Diamond program works according to instructions                                       |  `20`  |
+| Matrix program works according to instructions                                        |  `20`  |
+| Variables, and methods, if applicable, use intelligent and logical names              |  `20`  |
+| Code is neat, professional, and formatted according to conventions discussed in class |  `20`  |
+| Assignment rules followed                                                             |  `20`  |
+
+---
+
 ## ❖ Due ❖
 
 Thursday, 10 April 2025, at 5:00 PM.
