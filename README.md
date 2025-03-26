@@ -24,6 +24,49 @@ Also, ensure VS Code’s settings includes the following
 
 ---
 
+## ❖ Instructions ❖
+
+In this assignment, you’ll be writing two programs. For the first one, you’ll be writing a program that accepts input from the user in the form of an integer, then creates a diamond whose width (in columns) and height (in rows) are dictated by user input. For example, if the user enters 5, then the height of the diamond is 5 rows and the width of the diamond is 5 columns. **A movie of how this program should behave in its resolved state is available at [https://roy.vanegas.org/video/diamond-program-in-java.mp4](https://roy.vanegas.org/video/diamond-program-in-java.mp4).**
+
+**Note**: Odd and even versions of the diamond are rendered differently. Review the aforementioned video carefully for an example.
+
+Here are two examples of the output, one for an even situation, the other for an odd.
+
+```bash
+Enter a number
+8
+        *
+       * *
+     * * * *
+   * * * * * *
+ * * * * * * * *
+   * * * * * *
+     * * * *
+       * *
+        *
+
+Enter a number
+5
+  *
+ ***
+*****
+ ***
+  *
+```
+
+For the second program, you’ll be rendering a matrix whose size is dictated by user input, based on the following rules:
+
+1. Requests from the user a positive number representing the size of a matrix.
+2. Prints a matrix consisting of `0`s.
+3. Populates the matrix with values from `1–(input × input)`.
+4. Prints the matrix with the newly-populated values.
+5. Swaps the contents of the matrix on one side of the diagonal formed from top right to bottom left with the other side, highlighting the elements along the diagonal and leaving them untouched/unswapped.
+6. Prints the flipped matrix.
+
+As mentioned in item 5, the elements in the diagonal **must not be touched**, while the other elements in the matrix **must be swapped**. The numbers in every cell of the matrix is arbitrary; each cell could have contained a letter, string, image, or other object/primitive. Numbers are being used in this assignment because they produce a sequence that is easy to follow when working with the matrix. **A movie of how this program should behave in its resolved state is available at [https://roy.vanegas.org/video/matrix-flip-along-diagonal--java.mp4](https://roy.vanegas.org/video/matrix-flip-along-diagonal--java.mp4).**
+
+---
+
 ---
 
 ## ❖ Grading ❖
