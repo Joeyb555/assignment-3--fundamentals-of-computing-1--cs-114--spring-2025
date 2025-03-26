@@ -67,6 +67,16 @@ As mentioned in item 5, the elements in the diagonal **must not be touched**, wh
 
 ---
 
+## ❖ Rules for Matrix Program ❖
+
+1. Your `Matrix` class should contain a single field called `matrix` of the primitive type required to create a matrix.
+2. The `Matrix` constructor should accept an integer value as an argument named `size`, then create a `matrix` field whose width and height are equivalent to the integer passed to it. The constructor should also report to the user the dimensions of the matrix.
+3. As part of the `Matrix` class, write a `private` method called `swap` that will accept four arguments: `x1`, `y1`, `x2`, and `y2`, each representing the indices of the two elements in the matrix that should be swapped.
+4. Write a `public` method called `printMatrix` that accepts no arguments and returns nothing. It should print the matrix, highlighting in yellow the diagonal from top right to bottom left.
+5. Write a `public` method called `populateMatrix` that accepts no arguments and returns nothing. It should simply populate the matrix with values from `1–(size × size)`.
+6. Write a `public` method called `flipMatrix` that accepts no arguments and returns nothing. It should “flip” the matrix’s values along the diagonal from top right to bottom left. The elements that comprise the diagonal should be highlight and not swapped.
+
+---
 ---
 
 ## ❖ Grading ❖
