@@ -9,6 +9,8 @@ public class RunMatrix {
 
     Matrix matrix = new Matrix(size);
 
+    matrix.printMatrix();
+
     matrix.populateMatrix();
     System.out.println("Original Matrix:");
     matrix.printMatrix();

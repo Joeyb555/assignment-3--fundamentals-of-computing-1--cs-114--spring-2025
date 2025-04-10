@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Matrix {
   private int[][] matrix;
   private int size;
-
   public Matrix(int size) {
     this.size = size;
     this.matrix = new int[size][size];
@@ -12,6 +11,7 @@ public class Matrix {
   }
 
   public void populateMatrix() {
+
     int currentValue = 1;
 
     for (int i = 0; i < size; i++) {
@@ -46,7 +46,7 @@ public class Matrix {
     for (int i = 0; i < size; i++) {
       for (int j = 0; j < size; j++) {
         if (i + j < size - 1) {
-          swap(i, j, size - 1 - j, size - 1 - i);
+          swap(j, i, size - 1 - j, size - 1 - i);
         }
       }
     }
