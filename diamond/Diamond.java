@@ -9,6 +9,7 @@ public class Diamond {
     input = scanner.nextInt();
 
     if (input % 2 == 0)
+      // handle the even case here
       System.out.println();
     } else {
       ; // handle the odd case here
