@@ -10,6 +10,9 @@ public class Diamond {
 
     if (input % 2 == 0)
       System.out.println();
+    } else {
+      ; // handle the odd case here
+    }
 
     middle = input / 2;
 
