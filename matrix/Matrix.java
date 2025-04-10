@@ -27,7 +27,7 @@ public class Matrix {
         if (i + j == size - 1) {
           System.out.print("\033[33m" + matrix[i][j] + "\033[0m ");
         } else {
-          System.out.print(matrix[i][j] + " ");
+          System.out.print("\t" + matrix[i][j]);
         }
       }
 
